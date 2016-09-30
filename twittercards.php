@@ -37,7 +37,7 @@ class TwitterCards extends Module {
 			$output .= '<meta name="twitter:card" content="summary" />'.PHP_EOL;
 			$output .= '<meta name="twitter:title" content="'.$meta['title'].'" />'.PHP_EOL;
 			$output .= '<meta name="twitter:description" content="'.$meta['description'].'" />'.PHP_EOL;
-			$output .= '<meta name="twitter:image" content="'.__PS_BASE_URI__.'/img/favicon.ico" />'.PHP_EOL; 						// TODO: make it dynamic
+			$output .= '<meta name="twitter:image" content="'._PS_BASE_URL_.__PS_BASE_URI__.'img/favicon.ico" />'.PHP_EOL; 						// TODO: make it dynamic
 		}
 
 		if (!empty(Configuration::get('twittercards_site')))
