@@ -1,0 +1,14 @@
+{
+    "name": "ecomputer/prestashop-module",
+    "description": "Barebones to start developing a new Prestashop module",
+    "type": "prestashop-module",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Pablo Largo Mohedano",
+            "email": "pablolargo@ecomputer.es"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
